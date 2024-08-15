@@ -1,0 +1,94 @@
+
+  h1, p{
+    justify-content: center;
+    text-align: center;
+  }
+  
+  body{
+    font-family: sans-serif;
+  }
+  
+  header{
+    font-size: 25px;
+    padding: 1px 2px;
+  }
+  
+  #img-caption{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+  }
+  
+  h2{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 0.75vh;
+  }
+
+#tribute-info {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+#img-pele{
+    padding: 5px 20px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#tribute-info p{
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#pele{
+  border-radius: 50%;
+  width: 420px;
+  height: 420px;
+  object-fit: cover;
+  border: 5px solid yellow;
+  max-width: 70%;
+  display: block;
+  margin: auto auto;
+}
+
+#teams{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#cbf{
+  width: 120px;
+}
+
+#santos{
+  width: 90px;
+}
+
+#cosmos{
+  width: 80px;
+}
+
+#img-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+#world-cup{
+  width: 35%;
+  border-radius: 5%;
+  border: 5px solid rgb(0, 255, 0);
+}
