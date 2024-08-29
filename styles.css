@@ -23,7 +23,7 @@
   h2{
     text-align: center;
     font-size: 50px;
-    letter-spacing: 0.75vh;
+    letter-spacing: 1px;
   }
 
 #tribute-info {
@@ -91,4 +91,42 @@ ul{
   width: 35%;
   border-radius: 5%;
   border: 5px solid rgb(0, 255, 0);
+}
+@media screen and (max-width: 768px){
+  #main{
+    width: 100%;
+  }
+  #title{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 35px;
+  }
+  #img-pele{
+    width: 80%;
+  }
+  #pele{
+    height: 200px;
+    width: 200px;
+  }
+  #cbf{
+    width: 100px;
+  }
+  
+  #santos{
+    width: 80px;
+  }
+  
+  #cosmos{
+    width: 70px;
+  }
+  #world-cup{
+    width: 65%;
+  }
+  #tribute-info{
+    width: 80%;
+  }
+  header p{
+    font-size: 20px;
+  }
 }
